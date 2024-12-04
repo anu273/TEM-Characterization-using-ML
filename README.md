@@ -3,7 +3,8 @@
 ## Steps to Process TEM Images  
 
 ### Loading Data  
-Import data using `pandas` and display the image in grayscale using `matplotlib`.  
+- Import data using `pd.read_csv` from `pandas` library.
+- Display the image in grayscale using `matplotlib`.  
 
 ### Counting Atoms  
 1. Apply **Li thresholding** to identify distinct atoms in the image.  
